@@ -1,0 +1,185 @@
+/* assets/style.css -> Modern, dark, elite performance dashboard aesthetic */
+
+/* Fix main Streamlit background and text */
+.stApp {
+    background-color: #0d0f12 !important;
+    color: #e2e8f0 !important;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background-color: #15181d !important;
+    border-right: 1px solid #2d3748 !important;
+}
+
+.css-1d391kg,
+.css-1v3fvcr {
+    background-color: #15181d !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.02em;
+}
+
+h1 {
+    font-size: 2.5rem !important;
+    margin-bottom: 1.5rem !important;
+    background: linear-gradient(90deg, #6ba5ff 0%, #a485ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 1.75rem !important;
+    margin-top: 2rem !important;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #2d3748;
+}
+
+/* Custom KPI card styles */
+.kpi-card {
+    background: linear-gradient(145deg, #1a1e24 0%, #15181d 100%);
+    border: 1px solid #2d3748;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    margin-bottom: 1rem;
+}
+
+.kpi-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.15);
+    border-color: #4a5568;
+}
+
+.kpi-title {
+    font-size: 0.9rem;
+    color: #a0aec0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.kpi-value {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.25rem;
+}
+
+.kpi-subtext {
+    font-size: 0.8rem;
+    color: #718096;
+}
+
+.kpi-value.positive {
+    color: #4ade80;
+}
+
+.kpi-value.negative {
+    color: #f87171;
+}
+
+/* Standardizing inputs */
+.stTextInput>div>div>input,
+.stNumberInput>div>div>input,
+.stSelectbox>div>div>div,
+.stSlider>div>div>div {
+    background-color: #1a1e24 !important;
+    border: 1px solid #2d3748 !important;
+    color: #fff !important;
+    border-radius: 6px !important;
+}
+
+.stTextInput>div>div>input:focus,
+.stNumberInput>div>div>input:focus,
+.stSelectbox>div>div>div:focus {
+    border-color: #6ba5ff !important;
+    box-shadow: 0 0 0 1px #6ba5ff !important;
+}
+
+/* Primary Button High Performance Styling */
+.stButton>button {
+    background: linear-gradient(90deg, #3b82f6 0%, #6366f1 100%) !important;
+    color: #fff !important;
+    border: none !important;
+    padding: 0.5rem 1.5rem !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    transition: opacity 0.2s ease !important;
+    width: 100%;
+}
+
+.stButton>button:hover {
+    opacity: 0.9 !important;
+    color: #fff !important;
+}
+
+/* Progress bar container customization */
+.stProgress>div>div>div {
+    background-color: #6366f1;
+}
+
+/* Dataframe customization */
+[data-testid="stDataFrame"] {
+    border: 1px solid #2d3748 !important;
+    border-radius: 8px !important;
+    overflow: hidden;
+}
+
+/* Toast styling for Elite feel */
+[data-testid="stToast"] {
+    background-color: #1a1e24 !important;
+    border-left: 4px solid #4ade80 !important;
+    color: #fff !important;
+}
+
+/* Expander */
+.streamlit-expanderHeader {
+    background-color: #1a1e24;
+    border: 1px solid #2d3748;
+    border-radius: 8px;
+}
+
+.streamlit-expanderHeader:hover {
+    background-color: #2d3748;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    background-color: transparent;
+    border-bottom: 1px solid #2d3748;
+}
+
+.stTabs [data-baseweb="tab"] {
+    color: #a0aec0;
+}
+
+.stTabs [data-baseweb="tab"][aria-selected="true"] {
+    color: #fff;
+    border-bottom: 2px solid #6ba5ff;
+}
+
+/* Hide streamlit branding */
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    background: transparent !important;
+}
