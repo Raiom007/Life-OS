@@ -38,11 +38,24 @@ Stop tracking habits in boring spreadsheets. **Level up your life.**
 
 ## 📸 Screenshots
 
-*(Add your screenshots here! Example formats below)*
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Raiom007/Life-OS/main/assets/dashboard.png" alt="Command Center Dashboard" width="80%">
+  <p><em>The Command Center displaying RPG stats, heatmaps, and progress gauges.</em></p>
+</div>
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x450.png?text=Dashboard+Screenshot" alt="Dashboard" width="80%">
-  <p><em>The Command Center displaying RPG stats, heatmaps, and progress gauges.</em></p>
+  <img src="https://raw.githubusercontent.com/Raiom007/Life-OS/main/assets/analytics.png" alt="Weekly Analytics" width="80%">
+  <p><em>Weekly Analytics showcasing the Balance Radar and hard stats.</em></p>
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Raiom007/Life-OS/main/assets/gym.png" alt="Body and Gym Tracker" width="80%">
+  <p><em>Body & Gym tracker with rolling average weight visualizations.</em></p>
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Raiom007/Life-OS/main/assets/dsa.png" alt="DSA Tracker" width="80%">
+  <p><em>DSA Tracker showing topic distribution and difficulty breakdowns.</em></p>
 </div>
 
 ---
